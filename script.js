@@ -45,7 +45,7 @@ extensions.forEach(extension => {
         <img src="${extension.image}" alt="${extension.name}">
         <span>${extension.name}</span>
         <p>${extension.description}</p>
-        <a href="${extension.goostore}" target="_blank">View on Goostore</a>
+        <a href="${extension.webStore}" target="_blank">View on webStore</a>
     `;
     
     if (extension.github) {
