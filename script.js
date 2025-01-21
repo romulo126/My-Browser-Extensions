@@ -25,7 +25,7 @@ const extensions = [
         image: "https://lh3.googleusercontent.com/cjwVuMl12C567vlc_pg2fF1LHZMhtwlaarDWhRW922sXOoqhzDAUNAxMiMGDufSXLANMDq8oBBvDRnZh1TfsxTgl4w=s60",
         description: "Conecta-se ao MailHog e exibe e-mails. Visualize e gerencie e-mails capturados pelo MailHog diretamente do seu navegador.",
         webStore: "https://chromewebstore.google.com/detail/mailhog/oifipcnknpkfgibnofmchnnpohfkgebd",
-        github: null
+        github: "https://github.com/romulo126/ex-mail-hog"
     },
     {
         name: "speed Video",
