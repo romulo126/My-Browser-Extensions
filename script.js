@@ -1,5 +1,13 @@
 const extensions = [
     {
+        name: "Search streamers",
+        image: "https://lh3.googleusercontent.com/cGuKlRjPOzmw1nHnWVsOVULO0QWN4kL_XM3cipv9Kso1KEcWmuQTzMAtqgW6I10I0kxw2BuQHnzDHLckqAFdcYBjYQ=s60", // Link da imagem
+        description: `Com a enorme variedade de serviços de streaming disponíveis, encontrar onde um filme ou série está disponível pode ser um desafio. torne essa busca muito mais fácil!
+Basta estar logado nos seus serviços de streaming e realizar a pesquisa.`,
+        webStore: "https://chromewebstore.google.com/detail/streamers-search-extensio/nblbhgmfakmlgofpeagnipplfhoondcb?authuser=2&hl=pt-BR",
+        github: "https://github.com/romulo126/search-streamers"
+    },
+    {
         name: "Crunchyroll: Video Boostere",
         image: "https://lh3.googleusercontent.com/MS9F0ma_tnB-7L7PC2oa2BwvGLLhicEWQ6IUU5sXXmWEIWoeX4dFtvOkNRftg3LvcPaNWUum98CeYx__gCynByWsmmA=s60", // Link da imagem
         description: "Novas funcionalidades no video: Auto skip, aumentar a velocidade de reprodução e picture in picture.",
@@ -11,7 +19,7 @@ const extensions = [
         image: "https://lh3.googleusercontent.com/WfwMkc-M9aqu-LOgSEpIYgf_FrXb28t_QYoRNKjsPmCJiwlVxm8myCtXoCcEyVXnkJVuNnjdS54ncP3b9M_wWmgn=s60",
         description: "Aplica blur em imagens e vídeos por domínio.",
         webStore: "https://chromewebstore.google.com/detail/blur-images-and-videos-by/bnpmckdbhadbbojfndkcfmhepknoebch",
-        github: null
+        github: "https://github.com/romulo126/bluer-Images-Domain"
     },
     {
         name: "Gerador de Dados Brasileiros",
