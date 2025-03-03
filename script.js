@@ -1,5 +1,12 @@
 const extensions = [
     {
+        name: "Request MindMap",
+        image: "img/RequestMindMap.jpg",
+        description: ` Uma poderosa extensão para desenvolvedores e analistas de segurança que desejam capturar, visualizar e entender requisições de rede de forma intuitiva. Diferente de ferramentas tradicionais, esta extensão combina captura de requisições HTTP com um mapa mental dinâmico, permitindo a análise visual das conexões entre domínios, endpoints e métodos de requisição..`,
+        webStore: null,
+        github: "https://github.com/romulo126/Request-Map"
+    },
+    {
         name: "Search streamers",
         image: "https://lh3.googleusercontent.com/cGuKlRjPOzmw1nHnWVsOVULO0QWN4kL_XM3cipv9Kso1KEcWmuQTzMAtqgW6I10I0kxw2BuQHnzDHLckqAFdcYBjYQ=s60", // Link da imagem
         description: `Com a enorme variedade de serviços de streaming disponíveis, encontrar onde um filme ou série está disponível pode ser um desafio. torne essa busca muito mais fácil!
