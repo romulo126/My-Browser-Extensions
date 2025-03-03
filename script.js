@@ -60,8 +60,16 @@ extensions.forEach(extension => {
         <img src="${extension.image}" alt="${extension.name}">
         <span>${extension.name}</span>
         <p>${extension.description}</p>
-        <a href="${extension.webStore}" target="_blank">View on webStore</a>
     `;
+
+    if (extension.webStore) {
+        const webStoreButton = document.createElement("a");
+        webStoreButton.target = "_blank";
+        webStoreButton.className = "webStore";
+        webStoreButton.innerHTML = `View on webStore`;
+        webStoreButton.href = extension.webStore;
+        listItem.appendChild(webStoreButton);
+    }
     
     if (extension.github) {
         const githubButton = document.createElement("a");
