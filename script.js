@@ -3,7 +3,7 @@ const extensions = [
         name: "Request MindMap",
         image: "img/RequestMindMap.jpg",
         description: ` Uma poderosa extensão para desenvolvedores e analistas de segurança que desejam capturar, visualizar e entender requisições de rede de forma intuitiva. Diferente de ferramentas tradicionais, esta extensão combina captura de requisições HTTP com um mapa mental dinâmico, permitindo a análise visual das conexões entre domínios, endpoints e métodos de requisição..`,
-        webStore: null,
+        webStore: `https://chromewebstore.google.com/detail/request-mindmap/cinbmheinacjgmopiichnpfddcmkklnl?authuser=2&hl=pt-BR`,
         github: "https://github.com/romulo126/Request-Map"
     },
     {
